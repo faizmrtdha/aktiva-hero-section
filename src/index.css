@@ -33,3 +33,36 @@ a {
 .search-input {
   border-radius: 20px;
 }
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-hero {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.desc-hero h6 {
+  margin: 50px 0;
+  color: grey;
+}
+
+.hero-btn {
+  color: #fff;
+  background-image: linear-gradient(to right, #0749D7 0%, #007CFF 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.hero-btn:hover {
+  color: #fff;
+}
