@@ -5,13 +5,6 @@ import background from "../assets/bg-image.png";
 const Hero = () => {
   return (
     <>
-      {/* <div
-        className="bg-hero"
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "no-repeat",
-          width: "auto",
-        }}></div> */}
       <div className="hero">
         <div
           className="bg-hero"
