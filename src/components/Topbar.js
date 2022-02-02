@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar, Container, Nav, FormControl } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 
 const Topbar = () => {
